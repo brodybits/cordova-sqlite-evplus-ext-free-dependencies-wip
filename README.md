@@ -1,14 +1,13 @@
-# Cordova sqlite storage dependencies
+# Cordova-sqlite-evcore-free-dependencies
 
 AUTHOR: Christopher J. Brody
 
-LICENSE: [Unlicense (unlicense.org)](http://unlicense.org/) (public domain)
+LICENSE: GPL v3 (http://www.gnu.org/licenses/gpl.txt) or commercial license options
 
 Contains source and object code built from:
+- Android-sqlite-evcore-native-driver-free (GPL v3 or commercial license options)
 - SQLite3 (public domain)
-- [liteglue / Android-sqlite-native-driver](https://github.com/liteglue/Android-sqlite-native-driver) (Unlicense, public domain)
-- [liteglue / Android-sqlite-connector](https://github.com/liteglue/Android-sqlite-connector) (Unlicense, public domain)
 
-This project provides the following dependencies needed to build [litehelpers / Cordova-sqlite-storage](https://github.com/litehelpers/Cordova-sqlite-storage):
+This project provides the following dependencies needed to build Cordova-sqlite-evcore-fre:
+- `libs` - Android-sqlite-evcore-native-driver-free NDK libraries built with SQLite `3.12.2` amalgamation (without FTS5 and JSON1 features)
 - `sqlite3.h`, `sqlite3.c` - SQLite `3.8.10.2` amalgamation needed to build iOS and Windows versions
-- `libs` - [liteglue / Android-sqlite-connector](https://github.com/liteglue/Android-sqlite-connector) JAR and [liteglue / Android-sqlite-native-driver](https://github.com/liteglue/Android-sqlite-native-driver) NDK libraries built with SQLite `3.8.10.2` amalgamation
