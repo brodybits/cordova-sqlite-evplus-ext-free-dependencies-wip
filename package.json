@@ -1,6 +1,6 @@
 {
   "name": "cordova-sqlite-evcore-free-dependencies",
-  "version": "0.7.1",
+  "version": "0.7.2-rc1",
   "description": "Cordova sqlite evcore free dependencies",
   "main": "404.js",
   "scripts": {
