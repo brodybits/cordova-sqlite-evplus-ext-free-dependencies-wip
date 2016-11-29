@@ -9,8 +9,8 @@ Contains source and object code built from:
 - SQLite3 (public domain)
 
 This project provides the following dependencies needed to build Cordova-sqlite-evcore-fre:
-- `sqlite3.h`, `sqlite3.c` - SQLite `3.14.0` amalgamation needed to build iOS and Windows versions
-- `libs` - Android-sqlite-evcore-native-driver-free NDK libraries built with SQLite `3.12.2` amalgamation with the following flags:
+- `sqlite3.h`, `sqlite3.c` - SQLite `3.15.2` amalgamation needed to build iOS and Windows versions
+- `libs` - Android-sqlite-evcore-native-driver-free NDK libraries built with SQLite `3.15.2` amalgamation with the following flags:
  - `-DSQLITE_TEMP_STORE=2`
  - `-DSQLITE_THREADSAFE=2`
  - `-DSQLITE_ENABLE_FTS3`
