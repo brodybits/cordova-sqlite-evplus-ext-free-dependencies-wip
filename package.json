@@ -16,7 +16,7 @@
     "amalgamation"
   ],
   "author": "Christopher J. Brody",
-  "license": "GPL OR Commercial",
+  "license": "GPL-3.0 OR Commercial",
   "bugs": {
     "url": "https://github.com/litehelpers/Cordova-sqlite-evcore-free-dependencies/issues"
   },

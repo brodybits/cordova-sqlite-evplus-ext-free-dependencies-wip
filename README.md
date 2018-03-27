@@ -2,7 +2,7 @@
 
 AUTHOR: Christopher J. Brody
 
-LICENSE: GPL v3 (http://www.gnu.org/licenses/gpl.txt) or commercial license options
+LICENSE: GPL v3 (<https://www.gnu.org/licenses/gpl-3.0.txt>) or commercial license options
 
 Contains source and library (shared object) code built from:
 - [litehelpers / Android-sqlite-evcore-native-driver-free](https://github.com/litehelpers/Android-sqlite-evcore-native-driver-free) - GPL v3 or commercial license options
