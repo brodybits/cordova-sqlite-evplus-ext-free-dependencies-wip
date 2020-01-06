@@ -14,7 +14,7 @@ Contains source and library (shared object) code built from:
 This project provides the following dependencies needed to build Cordova SQLite evcore plugin versions:
 - `sqlite3.h`, `sqlite3.c` - SQLite `3.30.1` amalgamation needed to build iOS and Windows versions
 - [libb64-encode](https://github.com/brodybits/libb64-encode), [sqlite3-base64](https://github.com/brodybits/sqlite3-base64), and [sqlite3-regexp-cached](https://github.com/brodybits/sqlite3-regexp-cached) source for iOS/macOS/Windows platform versions
-- `evcore-native-driver.jar` - Android-sqlite-evcore-native-driver-free NDK JAR built with SQLite `3.28.0` amalgamation (using android-ndk version `16b` to support deprecated `armeabi` target), with the following option flags:
+- `evcore-native-driver.jar` - Android-sqlite-evcore-native-driver-free NDK JAR built with SQLite `3.30.1` amalgamation (using android-ndk version `16b` to support deprecated `armeabi` target), with the following option flags:
    - `-DSQLITE_THREADSAFE=1`
    - `-DSQLITE_DEFAULT_SYNCHRONOUS=3`
    - `-DSQLITE_DEFAULT_MEMSTATUS=0`
