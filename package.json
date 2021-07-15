@@ -1,6 +1,6 @@
 {
   "name": "cordova-sqlite-evplus-ext-free-dependencies",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Cordova sqlite evplus free dependencies",
   "main": "404.js",
   "scripts": {
